@@ -1,0 +1,50 @@
+.header {
+  background-color: #101827;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav .title {
+  color: white;
+  font-size: 30px;
+}
+.nav .enlaces {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.nav .enlaces a {
+  text-decoration: none;
+  color: white;
+}
+.cart {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.cart-count {
+  background-color: #F9A826;
+  color: #101827;
+  border-radius: 50%;
+  min-width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px;
+}
+.nav .enlaces a:hover {
+  color: #f9a826;
+}
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
